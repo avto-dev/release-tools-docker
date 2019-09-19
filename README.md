@@ -20,8 +20,8 @@ Tag name | Details                 | Full image name              | Dockerfile
 :------: | :---------------------: | :--------------------------: | :--------:
 `1.0`    | ![Size][badge_size_1_0] | `avto-dev/release-tools:1.0` | [link][dockerfile_1_0]
 
-[badge_size_1_0]:https://images.microbadger.com/badges/image/512k/release-tools:1.0.svg
-[dockerfile_1_0]:https://github.com/512k/release-tools-docker/blob/image-1.0/Dockerfile
+[badge_size_1_0]:https://images.microbadger.com/badges/image/avtodev/release-tools:1.0.svg
+[dockerfile_1_0]:https://github.com/avto-dev/release-tools-docker/blob/image-1.0/Dockerfile
 
 ## v1.0
 

@@ -20,8 +20,8 @@ Tag name | Details                 | Full image name              | Dockerfile
 :------: | :---------------------: | :--------------------------: | :--------:
 `1.0`    | ![Size][badge_size_1_0] | `avto-dev/release-tools:1.0` | [link][dockerfile_1_0]
 
-[badge_size_1_0]:https://images.microbadger.com/badges/image/512k/filebeat-udp-to-elastic:1.0.svg
-[dockerfile_1_0]:https://github.com/512k/filebeat-udp-to-elastic-docker/blob/image-1.0/Dockerfile
+[badge_size_1_0]:https://images.microbadger.com/badges/image/512k/release-tools:1.0.svg
+[dockerfile_1_0]:https://github.com/512k/release-tools-docker/blob/image-1.0/Dockerfile
 
 ## v1.0
 
@@ -61,10 +61,10 @@ MIT. Use anywhere for your pleasure.
 [noticeable_io]:https://noticeable.io
 [badge_automated]:https://img.shields.io/docker/cloud/automated/512k/filebeat-udp-to-elastic.svg?style=flat-square&maxAge=30
 [badge_pulls]:https://img.shields.io/docker/pulls/512k/filebeat-udp-to-elastic.svg?style=flat-square&maxAge=30
-[badge_issues]:https://img.shields.io/github/issues/512k/filebeat-udp-to-elastic-docker.svg?style=flat-square&maxAge=30
+[badge_issues]:https://img.shields.io/github/issues/512k/release-tools-docker.svg?style=flat-square&maxAge=30
 [badge_build]:https://img.shields.io/docker/cloud/build/512k/filebeat-udp-to-elastic.svg?style=flat-square&maxAge=30
-[badge_license]:https://img.shields.io/github/license/512k/filebeat-udp-to-elastic-docker.svg?style=flat-square&maxAge=30
+[badge_license]:https://img.shields.io/github/license/512k/release-tools-docker.svg?style=flat-square&maxAge=30
 [link_hub]:https://hub.docker.com/r/512k/filebeat-udp-to-elastic/
-[link_license]:https://github.com/512k/filebeat-udp-to-elastic-docker/blob/master/LICENSE
-[link_issues]:https://github.com/512k/filebeat-udp-to-elastic-docker/issues
+[link_license]:https://github.com/512k/release-tools-docker/blob/master/LICENSE
+[link_issues]:https://github.com/512k/release-tools-docker/issues
 [filebeat]:https://www.elastic.co/products/beats/filebeat

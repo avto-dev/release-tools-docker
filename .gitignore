@@ -3,7 +3,7 @@
 /.idea
 /CHANGELOG.md
 
-# Temp dirs and etc
+# Temp dirs and trash
 /temp
 /tmp
 .DS_Store

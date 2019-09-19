@@ -1,8 +1,9 @@
 # IDEs
 /nbproject
 /.idea
+/CHANGELOG.md
 
-# Temp dirs & trash
+# Temp dirs and etc
 /temp
 /tmp
 .DS_Store

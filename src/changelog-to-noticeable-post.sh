@@ -64,7 +64,7 @@ if [ $# -ge 7 ]; then
   fi;
 
   # Extract release notes
-  RELEASE_NOTES=$(sed "1,/## [vV]\?${VERSION}/d;/## [vV]/Q" ./CHANGELOG.md 2>/dev/null);
+  RELEASE_NOTES=$(sed "1,/## [vV]\?${VERSION}/d;/## [vV]/Q" "${CHANGELOG_PATH}" 2>/dev/null);
 
   # Make release notes check
   if [ -z "$RELEASE_NOTES" ]; then

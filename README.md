@@ -66,4 +66,4 @@ MIT. Use anywhere for your pleasure.
 [badge_license]:https://img.shields.io/github/license/avto-dev/release-tools-docker.svg?style=flat-square&maxAge=30
 [link_hub]:https://hub.docker.com/r/avtodev/release-tools/
 [link_license]:https://github.com/avto-dev/release-tools-docker/blob/master/LICENSE
-[link_issues]:https://github.com/avto-dev/release-tools-docker/issuesx
+[link_issues]:https://github.com/avto-dev/release-tools-docker/issues

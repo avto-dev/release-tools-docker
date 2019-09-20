@@ -59,12 +59,11 @@ $ docker run -ti -v $(pwd)/CHANGELOG.md:/CHANGELOG.md:ro \
 MIT. Use anywhere for your pleasure.
 
 [noticeable_io]:https://noticeable.io
-[badge_automated]:https://img.shields.io/docker/cloud/automated/512k/filebeat-udp-to-elastic.svg?style=flat-square&maxAge=30
-[badge_pulls]:https://img.shields.io/docker/pulls/512k/filebeat-udp-to-elastic.svg?style=flat-square&maxAge=30
-[badge_issues]:https://img.shields.io/github/issues/512k/release-tools-docker.svg?style=flat-square&maxAge=30
-[badge_build]:https://img.shields.io/docker/cloud/build/512k/filebeat-udp-to-elastic.svg?style=flat-square&maxAge=30
-[badge_license]:https://img.shields.io/github/license/512k/release-tools-docker.svg?style=flat-square&maxAge=30
-[link_hub]:https://hub.docker.com/r/512k/filebeat-udp-to-elastic/
-[link_license]:https://github.com/512k/release-tools-docker/blob/master/LICENSE
-[link_issues]:https://github.com/512k/release-tools-docker/issues
-[filebeat]:https://www.elastic.co/products/beats/filebeat
+[badge_automated]:https://img.shields.io/docker/cloud/automated/avtodev/release-tools.svg?style=flat-square&maxAge=30
+[badge_pulls]:https://img.shields.io/docker/pulls/avtodev/release-tools.svg?style=flat-square&maxAge=30
+[badge_issues]:https://img.shields.io/github/issues/avto-dev/release-tools-docker.svg?style=flat-square&maxAge=30
+[badge_build]:https://img.shields.io/docker/cloud/build/avtodev/release-tools.svg?style=flat-square&maxAge=30
+[badge_license]:https://img.shields.io/github/license/avto-dev/release-tools-docker.svg?style=flat-square&maxAge=30
+[link_hub]:https://hub.docker.com/r/avtodev/release-tools/
+[link_license]:https://github.com/avto-dev/release-tools-docker/blob/master/LICENSE
+[link_issues]:https://github.com/avto-dev/release-tools-docker/issuesx

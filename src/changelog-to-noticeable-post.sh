@@ -107,7 +107,7 @@ if [ $# -ge 7 ]; then
     --header 'Accept:application/json' \
     --header "Authorization: Apikey ${API_KEY}" \
     --data-binary "@${request_body_file}" \
-      "${ENDPOINT_URI}" || (>&2 echo "[ERROR] Cannot complete request.") && exit 10;
+      "${ENDPOINT_URI}" || (>&2 echo "[ERROR] Cannot complete request.");
 
   rm -f "$request_body_file";
 else

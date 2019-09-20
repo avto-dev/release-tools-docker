@@ -69,7 +69,7 @@ if [ $# -ge 4 ]; then
     --header 'Content-Type:application/json' \
     --header "PRIVATE-TOKEN:${API_TOKEN}" \
     --data "@${request_body_file}" \
-      "${API_ENDPOINT}" || (>&2 echo "[ERROR] Cannot complete request.") && exit 10;
+      "${API_ENDPOINT}" || (>&2 echo "[ERROR] Cannot complete request.");
 
   rm -f "$request_body_file";
 else

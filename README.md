@@ -18,7 +18,7 @@ Docker image with scripts release making on different services.
 
 Tag name | Details                 | Full image name              | Dockerfile
 :------: | :---------------------: | :--------------------------: | :--------:
-`1.0`    | ![Size][badge_size_1_0] | `avto-dev/release-tools:1.0` | [link][dockerfile_1_0]
+`1.0`    | ![Size][badge_size_1_0] | `avtodev/release-tools:1.0` | [link][dockerfile_1_0]
 
 [badge_size_1_0]:https://images.microbadger.com/badges/image/avtodev/release-tools:1.0.svg
 [dockerfile_1_0]:https://github.com/avto-dev/release-tools-docker/blob/image-1.0/Dockerfile
@@ -30,7 +30,7 @@ Tag name | Details                 | Full image name              | Dockerfile
 `changelog-to-gitlab-release.sh` - Make release on gitlab.com based on entry in `CHANGELOG.md` file.
 
 ```bash
-$ docker run -ti -v $(pwd)/CHANGELOG.md:/CHANGELOG.md:ro \
+$ docker run --rm -v $(pwd)/CHANGELOG.md:/CHANGELOG.md:ro \
     avtodev/release-tools:1.0 changelog-to-gitlab-release.sh \
       "./CHANGELOG.md" \                                  # Path to the CHANGELOG.md
       "v1.0.0" \                                          # Version header (for getting content from CHANGELOG.md)
@@ -42,7 +42,7 @@ $ docker run -ti -v $(pwd)/CHANGELOG.md:/CHANGELOG.md:ro \
 `changelog-to-noticeable-post.sh` - Make post on [noticeable.io][noticeable_io] with content entry from `CHANGELOG.md` file.
 
 ```bash
-$ docker run -ti -v $(pwd)/CHANGELOG.md:/CHANGELOG.md:ro \
+$ docker run --rm -v $(pwd)/CHANGELOG.md:/CHANGELOG.md:ro \
     avtodev/release-tools:1.0 changelog-to-noticeable-post.sh \
       "./CHANGELOG.md" \                                  # Path to the CHANGELOG.md
       "v1.0.0" \                                          # Version header (for getting content from CHANGELOG.md)

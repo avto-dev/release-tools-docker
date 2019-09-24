@@ -52,6 +52,14 @@ if [ $# -ge 4 ]; then
     (>&2 echo "[ERROR] Release notes for '${VERSION}' was not found in '${CHANGELOG_PATH}' file.") && exit 1;
   fi;
 
+  # Extract markdown links
+  MARKDOWN_LINKS=$(grep --color=never "^\[.*\]:.*$" "${CHANGELOG_PATH}" | sort -u);
+
+  # If markdown links is not empty - attach it to the release notes
+  if [ -n "$MARKDOWN_LINKS" ]; then
+    RELEASE_NOTES=$(printf "%s\n\n%s" "$RELEASE_NOTES" "$MARKDOWN_LINKS");
+  fi;
+
   # Create temporary file for request body
   request_body_file=$(mktemp) && touch "$request_body_file";
 
